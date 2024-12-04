@@ -1,0 +1,47 @@
+input[type="text"],input[type="password"],input[type="tel"],input[type="email"]{
+    height: 52px;
+    border: 4px solid;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    padding-left: 8px;
+}
+#name{
+    text-align: center;
+    border: none;
+    font-size: 40px;
+    /* display: inline-block;; */
+}
+#name:focus{
+    outline: none;
+}
+input::placeholder {
+    color: #535353;
+    font-family: "Mulish", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+#name::placeholder{
+    font-size: 40px;
+    color: black;
+}
+form{
+    margin: 2px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+
+}
+.name-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.pen{
+    transform: translateY(15px);
+}
+#name-send{
+    display: none;
+}

@@ -1,0 +1,29 @@
+.inner{
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+}
+.dashes p{
+    width: 819px;
+}
+.dashes{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+}
+.dash{
+    display: flex;
+    gap: 13px;
+}
+.date{
+    color: #9381FF;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.inner a{
+    align-self: end;
+}

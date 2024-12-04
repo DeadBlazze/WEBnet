@@ -1,0 +1,23 @@
+.inner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+    align-items: center;  
+}
+.user-icon{
+    margin-bottom: 40px;   
+}
+.lk-user__buttons{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+a{
+    color: black;
+}
+.button-gray{
+    background-color: #535353;
+}
+h1{
+    font-weight: 400;
+}

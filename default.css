@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+h2{
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+p{
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+}
+button{
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 24px;
+    background-color: #9381FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+input[type="submit"]{
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 24px;
+    background-color: #9381FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header{
+    background-color: #000000;
+    color: white;
+    height: 100px;
+    display: flex;
+    padding: 0 334px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__title{
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.header__p{
+    font-weight: 600;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
